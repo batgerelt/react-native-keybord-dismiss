@@ -1,0 +1,28 @@
+{
+  "name": "react-native-keybord-dismiss",
+  "version": "1.0.0",
+  "description": "React-Native keyboard dismiss component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batgerelt/react-native-keybord-dismiss.git"
+  },
+  "keywords": [
+    "react-native",
+    "keyboard",
+    "dismiss"
+  ],
+  "author": "B.Batgerelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batgerelt/react-native-keybord-dismiss/issues"
+  },
+  "homepage": "https://github.com/batgerelt/react-native-keybord-dismiss#readme",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  }
+}
