@@ -1,28 +1,56 @@
 {
   "name": "react-native-keybord-dismiss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-Native keyboard dismiss component",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/batgerelt/react-native-keybord-dismiss.git"
   },
   "keywords": [
+    "react",
     "react-native",
-    "keyboard",
-    "dismiss"
+    "render",
+    "conditional"
   ],
   "author": "B.Batgerelt",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/batgerelt/react-native-keybord-dismiss/issues"
   },
+  "contributors": [
+    {
+      "name": "B.Batgerelt",
+      "email": "batgereltb@gmail.com",
+      "url": "https://github.com/batgerelt"
+    }
+  ],
+  "lint-staged": {
+    "*.ts": [
+      "yarn lint",
+      "git add"
+    ]
+  },
   "homepage": "https://github.com/batgerelt/react-native-keybord-dismiss#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.15",
+    "@types/jest": "^29.5.6",
+    "@types/react": "^18.0.24",
+    "@types/react-test-renderer": "^18.0.0",
+    "jest": "^29.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.6",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^29.1.1"
+  },
   "peerDependencies": {
-    "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "*"
+  },
+  "eslintConfig": {
+    "extends": "@react-native-community"
   }
 }
